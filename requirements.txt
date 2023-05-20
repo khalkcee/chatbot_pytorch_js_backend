@@ -2,3 +2,4 @@ flask
 torch
 nltk
 gunicorn
+flask_cors
