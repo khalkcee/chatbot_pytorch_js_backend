@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "whats up?",
+        "hii",
+        "i need help",
+        "Heyy",
+        "goodafternoon",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "How's it going?",
+        "Greetings",
+        "sup"
+      ],
+      "responses": [
+        "How far! Welcome to OgaBassey Webstore, How can I assist you today?",
+        "Hello! Welcome to our store. How may I help you?",
+        "Hi there! i am OgaBassey How can I assist you today?",
+        "Hello, how are you doing? How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Farewell",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care.",
+        "Goodbye! Thank you for visiting.",
+        "Take care! Visit again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank you so much!",
+        "Nicee"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "You're welcome! If you have any more questions, feel free to ask.",
+        "My pleasure! Let me know if there's anything else I can assist you with."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+
+        "Which items do you have?",
+        "What kinds of gadgets, are there?",
+        "what do you have",
+        "Can i ask what you sell?",
+        "What do you sell?",
+        "What is this?",
+        "i want to buy a phone"
+      ],
+      "responses": [
+        "We sell All kinds of Gadgets! Mobile phones, headphones, laptops, human body parts.",
+        "Our store has an extensive collection of items, ranging from fashion and accessories to home goods and electronics."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept various payment methods, including major credit cards such as VISA and Mastercard, as well as Paypal.",
+        "You can pay using major credit cards like VISA and Mastercard, or through Paypal."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When will my order arrive?",
+        "when is it coming?"
+      ],
+      "responses": [
+        "Our delivery usually takes 2-4 business days, depending on your location.",
+        "Shipping generally takes 2-4 business days. You can track your order using the provided tracking number."
+      ]
+    },
+    {
+      "tag": "part-payment",
+      "patterns": [
+        "can i pay small small?",
+        "can i pay half"
+        
+       
+
+      ],
+      "responses": [
+        "Sure, of course you can. Would you like to talk to one of our in house Agents? they can explain better",
+        "you can pay 20% per month"
+      ]
+    }
+  ]
+}
