@@ -3,3 +3,4 @@ torch
 nltk
 gunicorn
 flask_cors
+numpy
