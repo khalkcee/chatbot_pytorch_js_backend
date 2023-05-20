@@ -1,5 +1,5 @@
 flask
-torch-cpu
+torch
 nltk
 gunicorn
 flask-cors
