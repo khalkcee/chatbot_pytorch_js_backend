@@ -6,6 +6,9 @@ app = Flask(__name__)
 CORS(app)
 
 
+@app.route("/")
+def index():
+    return "Welcome to the Chatbot API"
 
 
 @app.post("/predict")
