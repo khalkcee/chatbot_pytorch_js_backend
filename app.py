@@ -5,13 +5,11 @@ from chat import get_response
 app = Flask(__name__)
 CORS(app)
 
-
 @app.route("/")
 def index():
     return "Welcome to the Chatbot API"
 
-
-@app.post("/predict")
+@app.route("/predict", methods=["POST"])
 def predict():
     text = request.get_json().get("message")
     # TODO: check if text is valid
