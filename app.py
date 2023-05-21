@@ -4,7 +4,9 @@ from chat import get_response
 
 app = Flask(__name__)
 CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
+ Access-Control-Allow-Origin: *
 
 @app.route("/")
 def index():
