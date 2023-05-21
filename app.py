@@ -5,8 +5,8 @@ from chat import get_response
 app = Flask(__name__)
 CORS(app)
 
-@app.route("/", methods=["POST"])
-def index():
+@app.route("/predict", methods=["POST"])
+def Predict():
     text = request.get_json().get("message")
     response = get_response(text)
     message = {"answer": response}
